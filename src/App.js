@@ -1,11 +1,25 @@
 import React from "react";
+import "./App.css";
+import Home from "./components/Home";
+import OrderPizza from "./components/OrderPizza";
+import Success from "./components/Success";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+
 
 const App = () => {
+
+
+
   return (
-    <>
-      <h1>Teknolojik Yemekler</h1>
-      <p>Burdaki kodu silip kendi headerınızı ekleyebilirsiniz</p>
-    </>
+    <Router>
+      <Switch>
+        <Route exact path="/" id="order-pizza" component={Home} />
+        <Route path="/orderPizza" component={OrderPizza} />
+        <Route path="/success" component={Success} />
+      </Switch>
+    </Router>
+
   );
 };
 export default App;

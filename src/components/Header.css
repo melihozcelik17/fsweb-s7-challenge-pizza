@@ -1,0 +1,35 @@
+.header{
+    background-color: red;
+}
+h1{
+    color: white;
+}
+.side-bar {
+    
+    min-width: 260px;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+   
+   
+  }
+  .side-bar > nav > ul {
+    padding: 0;
+    color: white;
+    
+
+  }
+  .side-bar > nav > ul > li {
+    list-style:none;
+    color: white;
+  }
+  Link{
+    margin: 1px;
+    padding: 1px;
+
+
+  }
+  h1{
+ 
+    text-align: center;
+  }

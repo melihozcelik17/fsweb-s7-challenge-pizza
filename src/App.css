@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
 .App-link {
@@ -35,4 +36,62 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+ .Home{
+background-image: url(./Assets/mvp-banner.png);
+width: 1920px;
+height: 1080px;
+max-width: 100%;
+max-height: 100%;
+}
+
+
+
+h1{
+  font-family: 'Londrina Solid';
+  font-style: normal;
+  margin: 0;
+  padding: 1px;
+  text-align: center;
+  
+
+}
+p{
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  text-align: center;
+  font-size: 1.25rem;
+
+
+}
+button{
+  position: relative; 
+  background: #FDC913;
+  font-family: 'Barlow';
+  border-radius: 50px;
+  width:100px;
+  height: 50px;
+  padding: 1px;
+  margin: 1px;
+}
+
+.pizza-list {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  max-width : 40%;
+}
+
+.form{
+  display : flex;
+  flex-direction:column;
+  gap:10px;
 }
